@@ -10,6 +10,9 @@
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .logo{
@@ -26,4 +29,72 @@
 .icons a{
     color: white;
     margin: 10px;
+}
+
+.container{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: fit-content;
+    margin: 10px;
+    position: relative;
+}
+
+.card img{
+    max-width: 500px;
+}
+
+.img-down{
+    position: absolute;
+    z-index: -1;
+}
+
+.sale{
+    position: absolute;
+    bottom: 150px;
+}
+
+.brand{
+    font-size: 14px;
+}
+
+.price-saled{
+    color: red;
+    font-weight: 600;
+}
+
+.price{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.name{
+    font-weight: 600;
+}
+
+.red, .green{
+    color: white;
+    padding: 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
 }
