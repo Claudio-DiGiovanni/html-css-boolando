@@ -33,6 +33,7 @@
 
 .container{
     margin-top: 300px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -117,10 +118,21 @@ footer{
     font-size: 20px;
 }
 
-.card:hover{
-    z-index: -14;
+.img-up:hover{
+    opacity: 0;
 }
 
 .heart:hover{
     color: red;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.link a:hover{
+    background-color: black;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 50%;
 }
