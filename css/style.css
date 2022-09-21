@@ -98,3 +98,21 @@
     font-size: 20px;
     padding: 10px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.sx a{
+    color: white;
+    text-decoration: none;
+}
+
+.sx p{
+    font-weight: 600;
+    font-size: 20px;
+}
