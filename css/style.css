@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.logo{
+    width: 300px;
+    padding: 30px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icons a{
+    color: white;
+    margin: 10px;
+}
